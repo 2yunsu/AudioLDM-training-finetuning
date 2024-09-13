@@ -11,7 +11,9 @@ job_queue.sh
 *.txt
 *.cleaned
 audiocaps_train.json
-dataset
+# dataset
+video
+audioset
 checkpoints
 *.tar
 condor*
