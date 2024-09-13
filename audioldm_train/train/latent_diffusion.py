@@ -135,7 +135,8 @@ def main(configs, config_yaml_path, exp_group_name, exp_name, perform_validation
         print("Train from scratch")
         resume_from_checkpoint = None
 
-    devices = torch.cuda.device_count()
+    # devices = torch.cuda.device_count()
+    devices = [1,2] #yslee
 
     latent_diffusion = instantiate_from_config(configs["model"])
     latent_diffusion.set_log_dir(log_path, exp_group_name, exp_name)

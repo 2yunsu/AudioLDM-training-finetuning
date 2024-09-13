@@ -1751,22 +1751,46 @@ class LatentDiffusion(DDPM):
             **kwargs,
         )
 
-    def save_waveform(self, waveform, savepath, name="outwav"):
+    # def save_waveform(self, waveform, savepath, name="outwav"):
+    #     for i in range(waveform.shape[0]):
+    #         if type(name) is str:
+    #             path = os.path.join(
+    #                 savepath, "%s_%s_%s.wav" % (self.global_step, i, name)
+    #             )
+    #         elif type(name) is list:
+    #             path = os.path.join(
+    #                 savepath,
+    #                 "%s.wav"
+    #                 % (
+    #                     os.path.basename(name[i])
+    #                     if (not ".wav" in name[i])
+    #                     else os.path.basename(name[i]).split(".")[0]
+    #                 ),
+    #             )
+    #         else:
+    #             raise NotImplementedError
+    #         todo_waveform = waveform[i, 0]
+    #         todo_waveform = (
+    #             todo_waveform / np.max(np.abs(todo_waveform))
+    #         ) * 0.8  # Normalize the energy of the generation output
+    #         sf.write(path, todo_waveform, samplerate=self.sampling_rate)
+
+
+    def save_waveform(self, waveform, savepath, name="outwav"): #yslee
         for i in range(waveform.shape[0]):
             if type(name) is str:
                 path = os.path.join(
                     savepath, "%s_%s_%s.wav" % (self.global_step, i, name)
                 )
             elif type(name) is list:
-                path = os.path.join(
-                    savepath,
-                    "%s.wav"
-                    % (
-                        os.path.basename(name[i])
-                        if (not ".wav" in name[i])
-                        else os.path.basename(name[i]).split(".")[0]
-                    ),
-                )
+                if i < len(name):  # 인덱스 범위 체크
+                    base_name = os.path.basename(name[i])
+                    if not base_name.endswith(".wav"):
+                        base_name = base_name.split(".")[0]
+                else:
+                    # name 리스트가 짧을 경우 기본 이름을 사용
+                    base_name = f"default_name_{i}"
+                path = os.path.join(savepath, "%s.wav" % base_name)
             else:
                 raise NotImplementedError
             todo_waveform = waveform[i, 0]
