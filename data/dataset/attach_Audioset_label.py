@@ -1,8 +1,8 @@
 import pandas as pd
 
 # CSV 파일 경로 설정
-vgg_csv_path = './VGG-Foley-Sound_dataset.csv'
-bridge_csv_path = './AStest_Audioset_bridge.csv'
+vgg_csv_path = '/home/yslee/data/yslee/AudioLDM-training-finetuning/data/dataset/VGG-Foley-Sound_CLAP_combined.csv'
+bridge_csv_path = '/home/yslee/data/yslee/AudioLDM-training-finetuning/data/dataset/AStest_Audioset_bridge.csv'
 
 # CSV 파일 읽기
 vgg_df = pd.read_csv(vgg_csv_path)

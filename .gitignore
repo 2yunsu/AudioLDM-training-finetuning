@@ -11,10 +11,10 @@ job_queue.sh
 *.txt
 *.cleaned
 audiocaps_train.json
-# dataset
 video
 audioset
 checkpoints
 *.tar
 condor*
 wandb
+cookies.txt

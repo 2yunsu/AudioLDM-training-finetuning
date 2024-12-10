@@ -3,10 +3,10 @@ import pandas as pd
 import json
 
 # CSV 파일 경로 설정
-vgg_csv_path = 'VGG-Foley-Sound_dataset_with_Audioset_label.csv'
+vgg_csv_path = 'VGG-Foley-Sound_CLAP_combined.csv'
 audioset_folder = 'audioset'
-train_output_json_path = 'VGG-foley_train_label_2.json'
-test_output_json_path = 'VGG-foley_test_label_2.json'
+train_output_json_path = 'VGG-foley_CLAP_train_label.json'
+test_output_json_path = 'VGG-foley_CLAP_test_label.json'
 
 # CSV 파일 읽기
 vgg_df = pd.read_csv(vgg_csv_path)
@@ -29,20 +29,23 @@ for file_name in os.listdir(audioset_folder):
             audioset_label = matched_row['Audioset_label'].values[0]
             predicted_materials = matched_row['predicted_materials'].values[0]
             split = matched_row['train/test split'].values[0]  # Train/Test Split
-            caption = matched_row['label'].values[0]  # Label (Caption)
 
-            # JSON 데이터 구조 생성
-            data_entry = {
-                "wav": file_path,
-                "labels": audioset_label,
-                "caption": predicted_materials
-            }
+            # predicted_materials 값이 "None" 또는 NaN이 아니어야 처리
+            if predicted_materials != "None" and not pd.isna(predicted_materials):
+                caption = matched_row['label'].values[0]  # Label (Caption)
 
-            # Train/Test 구분에 따라 데이터를 나눔
-            if split == 'train':
-                train_data_list.append(data_entry)
-            elif split == 'test':
-                test_data_list.append(data_entry)
+                # JSON 데이터 구조 생성
+                data_entry = {
+                    "wav": file_path,
+                    "labels": audioset_label,
+                    "caption": predicted_materials
+                }
+
+                # Train/Test 구분에 따라 데이터를 나눔
+                if split == 'train':
+                    train_data_list.append(data_entry)
+                elif split == 'test':
+                    test_data_list.append(data_entry)
         else:
             print(f"No matching entry found for {file_base_name} in the CSV file.")
 

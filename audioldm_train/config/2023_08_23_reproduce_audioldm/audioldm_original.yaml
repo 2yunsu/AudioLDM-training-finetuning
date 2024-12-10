@@ -1,6 +1,6 @@
 metadata_root: "./data/dataset/metadata/dataset_root.json"
-log_directory: "./log/latent_diffusion"
-project: "audioldm"
+log_directory: "./log/latent_diffusion_vgg-foely-sound_without_CLAP"
+project: "audioldm_vggfoley_without_CLAP"
 precision: "high"
 
 variables:

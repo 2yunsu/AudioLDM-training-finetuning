@@ -62,6 +62,7 @@ def main(configs, config_yaml_path, exp_group_name, exp_name, perform_validation
     loader = DataLoader(
         dataset,
         batch_size=batch_size,
+        # num_workers=0, #yslee
         num_workers=16,
         pin_memory=True,
         shuffle=True,
@@ -136,7 +137,7 @@ def main(configs, config_yaml_path, exp_group_name, exp_name, perform_validation
         resume_from_checkpoint = None
 
     # devices = torch.cuda.device_count()
-    devices = [1,2] #yslee
+    devices = [1] #yslee
 
     latent_diffusion = instantiate_from_config(configs["model"])
     latent_diffusion.set_log_dir(log_path, exp_group_name, exp_name)

@@ -1,0 +1,16 @@
+{
+    "audiocaps": "./data/dataset",
+    "comments":{
+    },
+
+    "metadata":{
+        "path": {
+            "audiocaps":{
+                "train": "/home/yslee/data/yslee/AudioLDM-training-finetuning/data/dataset/metadata/VGG-Foley_Sound_CLAP_Combined/VGG-foley_CLAP_train_label.json", 
+                "test": "/home/yslee/data/yslee/AudioLDM-training-finetuning/data/dataset/metadata/VGG-Foley_Sound_CLAP_Combined/VGG-foley_CLAP_test_label.json",
+                "val": "/home/yslee/data/yslee/AudioLDM-training-finetuning/data/dataset/metadata/VGG-Foley-Sound_CLAP_Combined/VGG-foley_val_label.json",
+                "class_label_indices": "data/yslee/AudioLDM-training-finetuning/data/dataset/class_labels_indices.csv"
+            }
+        }
+    }
+}

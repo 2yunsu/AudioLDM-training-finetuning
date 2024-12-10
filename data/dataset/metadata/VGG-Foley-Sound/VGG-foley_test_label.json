@@ -41,11 +41,6 @@
             "caption": "Plastic"
         },
         {
-            "wav": "audioset/1eP5LSjyge0.wav",
-            "labels": "/m/03wvsk",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/1cxvg7qu0G0.wav",
             "labels": "/g/122z_qxw",
             "caption": "Plastic"
@@ -101,11 +96,6 @@
             "caption": "Plastic"
         },
         {
-            "wav": "audioset/1hJnxzlxnQs.wav",
-            "labels": "/t/dd00134",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/0FEd3Pd-ksw.wav",
             "labels": "/t/dd00130",
             "caption": "Metal"
@@ -139,11 +129,6 @@
             "wav": "audioset/-VLOm8cJZRI.wav",
             "labels": "/m/023pjk",
             "caption": "Plastic"
-        },
-        {
-            "wav": "audioset/0kqQNBR09Rc.wav",
-            "labels": "/m/07rknqz",
-            "caption": NaN
         },
         {
             "wav": "audioset/2pikqXJeOAg.wav",
@@ -181,11 +166,6 @@
             "caption": "Plastic"
         },
         {
-            "wav": "audioset/-QsPqh8Kyrc.wav",
-            "labels": "/m/06h7j",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/-xQbyezhw_k.wav",
             "labels": "/m/03wvsk",
             "caption": "Plastic"
@@ -199,11 +179,6 @@
             "wav": "audioset/3sYnYraOuIo.wav",
             "labels": "/m/0g6b5",
             "caption": "Plastic"
-        },
-        {
-            "wav": "audioset/18212B4yfLg.wav",
-            "labels": "/g/122z_qxw",
-            "caption": NaN
         },
         {
             "wav": "audioset/5RAfE1H_CTA.wav",
@@ -306,11 +281,6 @@
             "caption": "Wood"
         },
         {
-            "wav": "audioset/11KWMKfalJo.wav",
-            "labels": "/m/06h7j",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/0NZLG7HMiLg.wav",
             "labels": "/m/03m9d0z",
             "caption": "Dirt"
@@ -329,11 +299,6 @@
             "wav": "audioset/51nfpGY_AJk.wav",
             "labels": "/m/01w250",
             "caption": "Glass"
-        },
-        {
-            "wav": "audioset/0slyl34xWug.wav",
-            "labels": "/m/07rrlb6",
-            "caption": NaN
         },
         {
             "wav": "audioset/1zIoNTdug0U.wav",
@@ -371,11 +336,6 @@
             "caption": "Water"
         },
         {
-            "wav": "audioset/-vBj0PZ1RF0.wav",
-            "labels": "/m/0l15bq",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/1a-ODBWMUAE.wav",
             "labels": "/m/0j2kx",
             "caption": "Drywall"
@@ -399,16 +359,6 @@
             "wav": "audioset/1MlgXBFnJl8.wav",
             "labels": "/t/dd00048",
             "caption": "Metal"
-        },
-        {
-            "wav": "audioset/1De-OI8YG-M.wav",
-            "labels": "/m/0ngt1",
-            "caption": NaN
-        },
-        {
-            "wav": "audioset/4qLAn6_xfCY.wav",
-            "labels": "/m/0g6b5",
-            "caption": NaN
         },
         {
             "wav": "audioset/4Zy_6kCWN18.wav",
@@ -516,11 +466,6 @@
             "caption": "Dirt"
         },
         {
-            "wav": "audioset/1MTKUN3uFrs.wav",
-            "labels": "/m/0g6b5",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/3d6ismCJdos.wav",
             "labels": "/m/073cg4",
             "caption": "Metal"
@@ -606,11 +551,6 @@
             "caption": "Metal"
         },
         {
-            "wav": "audioset/1OFOElP7bqc.wav",
-            "labels": "/m/0j6m2",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/3TCAgDf9LNk.wav",
             "labels": "/m/06h7j",
             "caption": "Plastic"
@@ -626,19 +566,9 @@
             "caption": "Metal"
         },
         {
-            "wav": "audioset/0BauNGmZtTU.wav",
-            "labels": "/m/0ngt1",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/2BNSDDwGxM8.wav",
             "labels": "/m/07rv9rh",
             "caption": "Dirt"
-        },
-        {
-            "wav": "audioset/3xDZU7GME7E.wav",
-            "labels": "/g/122z_qxw",
-            "caption": NaN
         },
         {
             "wav": "audioset/-Z1ZSWDouUU.wav",
@@ -651,11 +581,6 @@
             "caption": "Brick"
         },
         {
-            "wav": "audioset/3vLc6D64xcs.wav",
-            "labels": "/m/0llzx",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/-3-4qmWSJXU.wav",
             "labels": "/m/0ngt1",
             "caption": "Metal"
@@ -666,34 +591,14 @@
             "caption": "Plastic"
         },
         {
-            "wav": "audioset/4IJCSuJoo9o.wav",
-            "labels": "/m/07qv_x_",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/4WRgvRI06zc.wav",
             "labels": "/m/0bm02",
             "caption": "Metal"
         },
         {
-            "wav": "audioset/1J_j6c2uQaM.wav",
-            "labels": "/m/0ngt1",
-            "caption": NaN
-        },
-        {
-            "wav": "audioset/2C4aXzGI2eI.wav",
-            "labels": "/m/0g6b5",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/2bYyywE97aA.wav",
             "labels": "/m/0d31p",
             "caption": "Carpet"
-        },
-        {
-            "wav": "audioset/1hknEtsmdOc.wav",
-            "labels": "/t/dd00134",
-            "caption": NaN
         },
         {
             "wav": "audioset/49WpWcOnPs4.wav",
@@ -736,11 +641,6 @@
             "caption": "Wood"
         },
         {
-            "wav": "audioset/1WI9921OeRc.wav",
-            "labels": "/m/03q5_w",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/6sfjS8pGgjM.wav",
             "labels": "/g/122z_qxw",
             "caption": "Metal"
@@ -771,11 +671,6 @@
             "caption": "Metal"
         },
         {
-            "wav": "audioset/2YW7WBtqzzQ.wav",
-            "labels": "/m/03q5_w",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/2Dr7gDL46NU.wav",
             "labels": "/m/0fqfqc",
             "caption": "Wood"
@@ -789,11 +684,6 @@
             "wav": "audioset/5AHCpL6ZZEg.wav",
             "labels": "/m/03wvsk",
             "caption": "Glass"
-        },
-        {
-            "wav": "audioset/21lu8Iaf9II.wav",
-            "labels": "/m/025_jnm",
-            "caption": NaN
         },
         {
             "wav": "audioset/1lLobOtsIFA.wav",
@@ -836,11 +726,6 @@
             "caption": "Metal"
         },
         {
-            "wav": "audioset/4iLKKmkyN14.wav",
-            "labels": "/m/0g6b5",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/3mDPQ_CPopw.wav",
             "labels": "/m/0bm02",
             "caption": "Metal"
@@ -874,11 +759,6 @@
             "wav": "audioset/-A1o1Egi20c.wav",
             "labels": "/m/03w41f",
             "caption": "Drywall"
-        },
-        {
-            "wav": "audioset/0loP4WNnL2k.wav",
-            "labels": "/m/0195fx",
-            "caption": NaN
         },
         {
             "wav": "audioset/1rJWW_KqeAw.wav",
@@ -921,11 +801,6 @@
             "caption": "Tile"
         },
         {
-            "wav": "audioset/4p8n4Zf-WMM.wav",
-            "labels": "/g/122z_qxw",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/2Tx5L5RBXxw.wav",
             "labels": "/m/0j6m2",
             "caption": "Water"
@@ -936,24 +811,9 @@
             "caption": "Drywall"
         },
         {
-            "wav": "audioset/1cwReJkXLVo.wav",
-            "labels": "/m/0ltv",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/5Cam1KCQ4aY.wav",
             "labels": "/m/0c2wf",
             "caption": "Plastic"
-        },
-        {
-            "wav": "audioset/1g6sdWOc9k4.wav",
-            "labels": "/m/0j6m2",
-            "caption": NaN
-        },
-        {
-            "wav": "audioset/2Mkwgf0Pej0.wav",
-            "labels": "/m/0llzx",
-            "caption": NaN
         },
         {
             "wav": "audioset/43R5uK6JJoA.wav",
@@ -1026,11 +886,6 @@
             "caption": "Plastic"
         },
         {
-            "wav": "audioset/0g_-KI5NZ-E.wav",
-            "labels": "/m/01w250",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/1NkUBIl2Plw.wav",
             "labels": "/m/06mb1",
             "caption": "Plastic"
@@ -1094,11 +949,6 @@
             "wav": "audioset/2ffgd7k0vI8.wav",
             "labels": "/m/073cg4",
             "caption": "Metal"
-        },
-        {
-            "wav": "audioset/10rH37YYvKU.wav",
-            "labels": "/m/0ngt1",
-            "caption": NaN
         },
         {
             "wav": "audioset/0Cu33yBwAPg.wav",
@@ -1191,16 +1041,6 @@
             "caption": "Metal"
         },
         {
-            "wav": "audioset/1woaZGPrY9g.wav",
-            "labels": "/t/dd00134",
-            "caption": NaN
-        },
-        {
-            "wav": "audioset/5RnD-0cA3PU.wav",
-            "labels": "/m/06mb1",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/3kx-UhywUf0.wav",
             "labels": "/m/0d31p",
             "caption": "Carpet"
@@ -1224,11 +1064,6 @@
             "wav": "audioset/5QpSgohMobQ.wav",
             "labels": "/t/dd00130",
             "caption": "Metal"
-        },
-        {
-            "wav": "audioset/2v1rSA4FqlM.wav",
-            "labels": "/m/07ptzwd",
-            "caption": NaN
         },
         {
             "wav": "audioset/4GclkzsR830.wav",
@@ -1284,11 +1119,6 @@
             "wav": "audioset/-kZVoaYYU6o.wav",
             "labels": "/m/01bjv",
             "caption": "Dirt"
-        },
-        {
-            "wav": "audioset/1G6wtnmdZhE.wav",
-            "labels": "/t/dd00134",
-            "caption": NaN
         },
         {
             "wav": "audioset/10hGfv89L3g.wav",
@@ -1356,11 +1186,6 @@
             "caption": "Metal"
         },
         {
-            "wav": "audioset/4A3_lLVLpUg.wav",
-            "labels": "/m/09ct_",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/2i4UNf8tjvU.wav",
             "labels": "/m/09t49",
             "caption": "Ceramic"
@@ -1406,24 +1231,9 @@
             "caption": "Metal"
         },
         {
-            "wav": "audioset/-Q_UXiwWR_c.wav",
-            "labels": "/t/dd00134",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/-YfaQljuwwA.wav",
             "labels": "/m/07rv9rh",
             "caption": "Plastic"
-        },
-        {
-            "wav": "audioset/4IZKViDklnM.wav",
-            "labels": "/m/09t49",
-            "caption": NaN
-        },
-        {
-            "wav": "audioset/1W-KLZJwXkc.wav",
-            "labels": "/m/07qv_x_",
-            "caption": NaN
         },
         {
             "wav": "audioset/4lqUgzaykg8.wav",
@@ -1441,11 +1251,6 @@
             "caption": "Metal"
         },
         {
-            "wav": "audioset/3f5atenstgc.wav",
-            "labels": "/m/07rv9rh",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/1uCzQCdCC1U.wav",
             "labels": "/m/0ltv",
             "caption": "Metal"
@@ -1461,11 +1266,6 @@
             "caption": "Metal"
         },
         {
-            "wav": "audioset/1bbyaXEVouE.wav",
-            "labels": "/g/122z_qxw",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/4TshFWSsrn8.wav",
             "labels": "/m/07rknqz",
             "caption": "Dirt"
@@ -1479,11 +1279,6 @@
             "wav": "audioset/10YXuv9Go0E.wav",
             "labels": "/m/06_fw",
             "caption": "Metal"
-        },
-        {
-            "wav": "audioset/2iAO9PKZDGk.wav",
-            "labels": "/m/03w41f",
-            "caption": NaN
         },
         {
             "wav": "audioset/3VKBHfRhMa4.wav",
@@ -1546,11 +1341,6 @@
             "caption": "Grass"
         },
         {
-            "wav": "audioset/33UghN1hNF8.wav",
-            "labels": "/m/0l15bq",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/5Fmo6UtGRAA.wav",
             "labels": "/m/07ptzwd",
             "caption": "Dirt"
@@ -1606,11 +1396,6 @@
             "caption": "Wood"
         },
         {
-            "wav": "audioset/4PRjMiZOx5I.wav",
-            "labels": "/m/09t49",
-            "caption": NaN
-        },
-        {
             "wav": "audioset/3JZbfcbZaoM.wav",
             "labels": "/m/01h82_",
             "caption": "Dirt"
@@ -1644,11 +1429,6 @@
             "wav": "audioset/1oJAVJPX0YY.wav",
             "labels": "/m/01g50p",
             "caption": "Metal"
-        },
-        {
-            "wav": "audioset/0439dMJj-FY.wav",
-            "labels": "/m/0ngt1",
-            "caption": NaN
         },
         {
             "wav": "audioset/064Ilsz8Fzg.wav",
