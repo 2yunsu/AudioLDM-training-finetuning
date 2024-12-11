@@ -1,0 +1,23 @@
+(audioldm_train) yslee@gpu-1:~/data/yslee/AudioLDM-training-finetuning$ python3 audioldm_train/eval.py --log_path /home/yslee/data/yslee/AudioLDM-training-finetuning/log/latent_diffusion/2023_08_23_reproduce_audioldm
+2023 -06 -22
+Using cache found in /home/yslee/.cache/torch/hub/harritaylor_torchvggish_master
+/home/yslee/data/yslee/AudioLDM-training-finetuning/log/latent_diffusion/2023_08_23_reproduce_audioldm/audioldm_original/val_1590_09-13-13:31_cfg_scale_3.5_ddim_200_n_cand_3
+Generted files /home/yslee/data/yslee/AudioLDM-training-finetuning/log/latent_diffusion/2023_08_23_reproduce_audioldm/audioldm_original/val_1590_09-13-13:31_cfg_scale_3.5_ddim_200_n_cand_3
+Target files log/testset_data/audiocaps
+-Two path have 0 intersection files out of total 2 & 305 files. Processing two folder with same_name=False
+Loading data to RAM
+100%|███████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  9.44it/s]
+100%|███████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  2.97it/s]
+Loading data to RAM
+100%|███████████████████████████████████████████████████████████████████████████| 305/305 [01:11<00:00,  4.27it/s]
+100%|███████████████████████████████████████████████████████████████████████████| 305/305 [01:39<00:00,  3.07it/s]
+FAD: {'frechet_audio_distance': 12.23867694150058}
+Extracting features from log/testset_data/audiocaps.
+100%|███████████████████████████████████████████████████████████████████████████| 305/305 [01:27<00:00,  3.50it/s]
+Save pickle at log/testset_data/audiocapsclassifier_logits_feature_cache.pkl
+Extracting features from /home/yslee/data/yslee/AudioLDM-training-finetuning/log/latent_diffusion/2023_08_23_reproduce_audioldm/audioldm_original/val_1590_09-13-13:31_cfg_scale_3.5_ddim_200_n_cand_3.
+100%|███████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  3.26it/s]
+Save pickle at /home/yslee/data/yslee/AudioLDM-training-finetuning/log/latent_diffusion/2023_08_23_reproduce_audioldm/audioldm_original/val_1590_09-13-13:31_cfg_scale_3.5_ddim_200_n_cand_3classifier_logits_feature_cache.pkl
+Computing Inception Score
+Computing Frechet Distance (PANNs)
+audioldm_original Imaginary component 1.7777536662745043e+277

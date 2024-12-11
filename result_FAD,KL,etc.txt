@@ -1,0 +1,24 @@
+generation_result_path = "/home/yslee/data/yslee/AudioLDM-training-finetuning/log/latent_diffusion_vgg-foely-sound/2023_08_23_reproduce_audioldm/audioldm_original/val_118230_12-02-23:27_cfg_scale_3.5_ddim_200_n_cand_3"
+target_audio_path = "/home/yslee/data/yslee/AudioLDM-training-finetuning/log/testset_data/audiocaps"
+
+Computing Inception Score
+Computing Frechet Distance
+frechet_audio_distance: 12.9310877
+kullback_leibler_divergence_sigmoid: 1.9549185
+kullback_leibler_divergence_softmax: 0.0254069
+inception_score_mean: 1.0129882
+inception_score_std: 0.0002955
+frechet_distance: 15.8300238
+
+------------------
+generation_result_path = "/home/yslee/data/yslee/AudioLDM-training-finetuning/log/latent_diffusion_vgg-foely-sound_without_CLAP/2023_08_23_reproduce_audioldm/audioldm_original/val_118230_12-03-12:20_cfg_scale_3.5_ddim_200_n_cand_3"
+target_audio_path = "/home/yslee/data/yslee/AudioLDM-training-finetuning/log/testset_data/audiocaps"
+
+Computing Inception Score
+Computing Frechet Distance
+frechet_audio_distance: 15.4958664
+kullback_leibler_divergence_sigmoid: 1.6543839
+kullback_leibler_divergence_softmax: 0.0211450
+inception_score_mean: 1.0141625
+inception_score_std: 0.0005121
+frechet_distance: 17.1736431
